@@ -1,0 +1,16 @@
+{   
+    "name": "Hide OW Items",
+    "version": "0.1.0",
+    "manifest_version": 2,
+    "description": "Hide all obtained items on Overwatch Item Tracker",
+    "permissions": ["tabs","storage"],
+    "browser_action": {
+      "default_icon": "logo_disable.png",
+      "default_title": "Hide OW Items"
+    },
+    "background": [{
+      "persistent": false,
+      "scripts": ["background.js"],
+      "page": "background.html"
+    }]
+  }
